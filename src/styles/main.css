@@ -1,0 +1,7 @@
+@import '@a1rth/css-normalize';
+@import './fonts.css';
+@import './variables.css';
+@import './globals.css';
+
+@import './blocks/header.css';
+@import './blocks/footer.css';
