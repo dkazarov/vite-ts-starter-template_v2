@@ -6,3 +6,6 @@
 
 @import './blocks/header.css';
 @import './blocks/footer.css';
+
+@import './components/burger.css';
+
