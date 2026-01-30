@@ -1,13 +1,11 @@
 const burgerBtn = document.querySelector('.burger') as HTMLButtonElement;
-const burgerLine = document.querySelector('.burger__line');
+const burgerLine = document.querySelector('.burger__lines') as HTMLSpanElement;
 
-const burger = (): void => {
+const initBurger = () => {
 	burgerBtn.addEventListener('click', () => {
-		burgerLine?.classList.toggle('burger__line--hide');
-		burgerBtn?.classList.toggle('burger__line--transform');
+		burgerLine.classList.toggle('burger__line--hide');
+		burgerBtn.classList.toggle('burger--transform');
 	});
 };
 
-export const initBurger = (): void => {
-	burger();
-};
+export { initBurger };
