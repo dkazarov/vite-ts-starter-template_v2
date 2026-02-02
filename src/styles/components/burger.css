@@ -1,8 +1,8 @@
 .burger {
 	position: relative;
+	justify-self: end;
 	width: 30px;
-	height: 30px;
-	background-color: blue;
+	height: 25px;
 
 	&::after,
 	&::before {
@@ -45,4 +45,10 @@
 	transform: rotate(-45deg);
 	top: 50%;
 	transition: all 0.2s ease-in-out;
+}
+
+@media (min-width: 768px) {
+	.burger {
+		display: none;
+	}
 }
