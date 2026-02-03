@@ -5,7 +5,18 @@ body {
 	font-family: var(--main-font);
 	font-size: var(--global-font-size);
 	color: var(--main-text-color);
-	background-color: rgba(0, 122, 204, 0.2);
+	background: -webkit-linear-gradient(
+		159deg,
+		#e7a756,
+		#c93d58,
+		#580576
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		159deg,
+		#e7a756,
+		#c93d58,
+		#580576
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .main {
