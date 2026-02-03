@@ -16,6 +16,7 @@
 .nav__list {
 	display: flex;
 	gap: 0 20px;
+	transition: all 0.2s ease-in-out;
 }
 .nav__item {
 }
@@ -23,3 +24,25 @@
 	color: var(--secondary-text-color);
 }
 
+@media (max-width: 768px) {
+	.nav__list {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		right: -150%;
+		top: 0;
+		width: 100vw;
+		height: 100vh;
+		background-color: black;
+		gap: 20px;
+	}
+	.nav__link {
+		font-size: 24px;
+	}
+	.burger__init {
+		right: 0;
+		transition: all 0.2s ease-in-out;
+	}
+}
