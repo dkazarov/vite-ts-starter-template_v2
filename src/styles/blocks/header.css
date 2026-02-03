@@ -8,8 +8,6 @@
 	align-items: center;
 	padding: 10px;
 }
-.header__logo {
-}
 .nav {
 	justify-self: center;
 }
@@ -17,8 +15,6 @@
 	display: flex;
 	gap: 0 20px;
 	transition: all 0.2s ease-in-out;
-}
-.nav__item {
 }
 .nav__link {
 	color: var(--secondary-text-color);
